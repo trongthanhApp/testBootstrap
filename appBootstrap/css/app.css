@@ -1,7 +1,34 @@
 body {
-    background: brown;
+    background: black;
 }
 
 .page-content {
     padding: 40px 15px;
+}
+
+.welcome {
+    text-align: center;
+    color: white;
+    font-weight: lighter;    
+}
+
+
+
+.thumbnail {
+    text-align: center;
+}
+
+.foot {
+    background: #292823;
+    color: #fff;
+    font-size: 85%;
+}
+
+.widget {
+    padding-top: 40px;
+    margin-top: 1,5em;
+    border-right: 1px solid #1c1c1c;
+}
+.widget:last-child {
+    border-right: none;
 }
